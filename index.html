@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>胸部立位正面｜性別選択画面</title>
+<style>
+:root{
+  --bg1:#f7fbff;
+  --bg2:#eef6ff;
+  --ink:#0f172a;
+  --muted:#475569;
+  --muted2:#64748b;
+  --card:#ffffff;
+  --border:#e2e8f0;
+  --accent1:#93c5fd;
+  --accent2:#38bdf8;
+}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Segoe UI",sans-serif;
+  background:linear-gradient(180deg,var(--bg1),var(--bg2));
+  color:var(--ink);
+}
+.header{ padding:18px; }
+.header-title{
+  border:2px solid var(--accent2);
+  border-radius:16px;
+  padding:16px 14px;
+  background:#f8fbff;
+}
+.header h1{ margin:0 0 6px; font-size:22px; line-height:1.25; }
+.header .subttl{ font-size:14px; color:var(--muted); }
+.header p{ margin:10px 0 0; font-size:13px; color:var(--muted); }
+.small-note{ font-size:12px; color:var(--muted2); margin-top:6px; }
+.container{ padding:10px 14px 24px; }
+.card{
+  display:flex;
+  align-items:center;
+  padding:16px;
+  margin-bottom:14px;
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  text-decoration:none;
+  color:var(--ink);
+  box-shadow:0 8px 18px rgba(15,23,42,0.06);
+}
+.num{
+  font-size:18px;
+  font-weight:700;
+  min-width:40px;
+  height:40px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,var(--accent1),var(--accent2));
+  color:#ffffff;
+  margin-right:14px;
+}
+.jp{ font-size:16px; font-weight:700; }
+.vi{ font-size:13px; color:var(--muted); margin-top:2px; }
+.card:active{ transform:scale(.98); }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-title">
+      <h1>胸部立位正面（X-quang ngực）<br><span class="subttl">性別選択画面</span></h1>
+      <p>患者様の性別を選択してください</p>
+      <div class="small-note">※ 各カードをタップすると、該当ページへ移動します。</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <a class="card" href="https://orinndo.github.io/chest-X-ray-PA-erect-VN-male/">
+      <div class="num">01</div>
+      <div class="texts">
+        <div class="jp">男性</div>
+        <div class="vi">nam</div>
+      </div>
+    </a>
+
+    <a class="card" href="https://orinndo.github.io/chest-X-ray-PA-erect-VN-female/">
+      <div class="num">02</div>
+      <div class="texts">
+        <div class="jp">女性</div>
+        <div class="vi">nữ</div>
+      </div>
+    </a>
+
+  </div>
+</body>
+</html>
